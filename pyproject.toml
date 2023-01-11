@@ -5,7 +5,7 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.scripts]
-greet = "greet.greet:greet"
+greet = "src.greet.greet:greet"
 
 [tool.poetry.dependencies]
 python = "^3.7"
